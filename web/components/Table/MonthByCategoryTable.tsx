@@ -10,7 +10,7 @@ export const swatchMap: Record<Type, string> = {
   [Type.Restaurants]: "yellow",
   [Type.Travel]: "green",
   [Type.Leisure]: "blue",
-  [Type.Errand]: "purple",
+  [Type.Misc]: "purple",
 };
 export default function MonthByCategoryTable() {
   const {

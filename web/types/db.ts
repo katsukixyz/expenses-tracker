@@ -34,7 +34,7 @@ export enum Type {
   Travel = "Travel",
   Restaurants = "Restaurants",
   Leisure = "Leisure",
-  Errand = "Errand",
+  Misc = "Misc",
 }
 
 export const typeLabels: Record<Type, string> = {
@@ -43,5 +43,5 @@ export const typeLabels: Record<Type, string> = {
   [Type.Travel]: "Travel",
   [Type.Restaurants]: "Restaurants",
   [Type.Leisure]: "Leisure",
-  [Type.Errand]: "Errand",
+  [Type.Misc]: "Misc",
 };
